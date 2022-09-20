@@ -70,7 +70,7 @@ main{
     justify-content: center;
     align-items: center;
     background-color: black;
-    background: url('assets/image/winter-6590863_1280.webp');
+    background: url('../image/winter-6590863_1280.webp');
     background-color : black;
     background-repeat: no-repeat;
     background-size: cover;

@@ -115,7 +115,7 @@ i {
     background: whitesmoke;
 }
 
-.game-question-container h1{
+.game-question-container div{
     font-size: 1.3rem;
     text-align: center;
     padding: 3px;
