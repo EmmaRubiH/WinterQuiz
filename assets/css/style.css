@@ -113,16 +113,16 @@ main{
 /* The actual popup (appears on top) */
 .popup .popuptext {
     visibility: hidden;
-    width: 160px;
+    width: 250px;
     background-color: #2E6A7C;
     color: #fff;
     text-align: center;
     border-radius: 6px;
-    padding: 8px 0;
+    padding: 8px ;
     position: absolute;
     z-index: 1;
     bottom: 125%;
-    left: 50%;
+    left: 2%;
     margin-left: -80px;
   }
   
@@ -132,13 +132,13 @@ main{
     position: absolute;
     top: 100%;
     left: 50%;
-    margin-left: -5px;
+    margin-left: -10px;
     border-width: 5px;
     border-style: solid;
-    border-color: #555 transparent transparent transparent;
+    border-color: black transparent transparent transparent;
   }
   
-  /* Toggle this class when clicking on the popup container (hide and show the popup) */
+  /* hide and show the popup */
   .popup .show {
     visibility: visible;
     -webkit-animation: fadeIn 1s;
@@ -178,6 +178,8 @@ main{
     background: #2E6A7C;
     color: white;
 }
+
+/* All media q starts here */
 
 @media(min-width : 300px) and (max-width : 350px){
     .top h1 {

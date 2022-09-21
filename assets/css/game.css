@@ -265,7 +265,7 @@ input[type=radio]:checked ~ .option {
     background-color: rgb(83, 82, 82);
 }
 
-/* all of my media q starts here*/
+/* All media q starts here*/
 
 @media(min-width : 300px) and (max-width : 350px){
     .top h1 {
