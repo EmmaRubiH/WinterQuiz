@@ -29,7 +29,7 @@ header {
 }
 
 .top h1 {
-    width: 140px;
+    width: 150px;
     float: left;
     padding: 10px 0px 0px 10px;
     color: whitesmoke;
@@ -41,6 +41,7 @@ nav ul {
     display: flex;
     margin: 0;
     padding: 0;
+    padding-right: 10px;
 }
 
 nav ul li a {
@@ -86,6 +87,10 @@ main{
     align-items: center;
     justify-content: space-around;
     border-radius: 30px;
+    font-size: 2rem;
+}
+i {
+    color: #2E6A7C;
 }
 
 .game-question-container{
@@ -96,10 +101,11 @@ main{
     justify-content: center;
     border: 2px dashed black;
     border-radius: 25px;
-    background: whitesmoke;
-    font-size: 1.1rem;
+    background: #2E6A7C;
+    font-size: 2rem;
     text-align: center;
     padding: 3px;
+    color: white;
 }
 
 
@@ -113,9 +119,9 @@ main{
 /* The actual popup (appears on top) */
 .popup .popuptext {
     visibility: hidden;
-    width: 250px;
-    background-color: #2E6A7C;
-    color: #fff;
+    width: 350px;
+    background-color: whitesmoke;
+    color: black;
     text-align: center;
     border-radius: 6px;
     padding: 8px ;
@@ -124,6 +130,8 @@ main{
     bottom: 125%;
     left: 2%;
     margin-left: -80px;
+    font-size: 1.3rem;
+    letter-spacing: 1;
   }
   
   /* Popup arrow */
@@ -172,7 +180,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 22px;
+    font-size: 2rem;
     color: black;
     text-decoration: none;
 }
@@ -257,12 +265,12 @@ main{
 
     .game-question-container{
         height: 10rem;
-        font-size: 0.9rem;
+        font-size: 1.2rem;
         
     }
 
     .game-question-container h1{
-        font-size: 0.9rem;
+        font-size: 1.2rem;
      }
 
     .game-options-container span{
