@@ -31,3 +31,18 @@ To achieve this:
  Mobile idea:
 
  ![mobile](/assets/image/Ska%CC%88rmavbild%202022-09-20%20kl.%2010.13.07.png)
+
+## Website design elements
+
+### Colors
+
+#### The color chosen for the project are:
+
+### Fonts
+
+ ## Features
+
+ ### Existing Features
+
+ * The WinterQuiz Logo, Heading and Nav
+   * In

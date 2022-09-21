@@ -111,6 +111,15 @@ main{
 }
 
 @media(min-width : 300px) and (max-width : 350px){
+    .top h1 {
+        width: 100px;
+
+    }
+
+    nav ul li a {
+        padding: 12px 12px;
+    }
+    
     .game-quiz-container{
         width: 90%;
         height: 80vh;
@@ -144,6 +153,15 @@ main{
 }
 
 @media(min-width : 350px) and (max-width : 700px){
+    .top h1 {
+        width: 100px;
+
+    }
+
+    nav ul li a {
+        padding: 12px 12px;
+    }
+
    .game-quiz-container{
        width: 90%;
        height: 80vh;
