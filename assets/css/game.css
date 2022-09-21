@@ -30,7 +30,7 @@ header {
 .top h1 {
     width: 140px;
     float: left;
-    padding: 10px 0px 0px 0px;
+    padding: 10px 0px 0px 10px;
     color: whitesmoke;
 }
 

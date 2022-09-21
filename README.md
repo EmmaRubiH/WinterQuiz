@@ -45,4 +45,10 @@ To achieve this:
  ### Existing Features
 
  * The WinterQuiz Logo, Heading and Nav
-   * In
+   * This is simply the title of the page. There are two click-buttons (Start, Quiz) whick can be easily accessed from anywhere within the site.
+
+### Home/Start page
+
+* This is a welcome page, whit information about the quiz.
+* This section provides a clickabel button there users can click on to start the quiz.
+ 

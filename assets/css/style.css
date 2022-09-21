@@ -31,7 +31,7 @@ header {
 .top h1 {
     width: 140px;
     float: left;
-    padding: 10px 0px 0px 0px;
+    padding: 10px 0px 0px 10px;
     color: whitesmoke;
 }
 
@@ -87,6 +87,75 @@ main{
     justify-content: space-around;
     border-radius: 30px;
 }
+
+.game-question-container{
+    width: 80%;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed black;
+    border-radius: 25px;
+    background: whitesmoke;
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 3px;
+}
+
+
+.game-quiz-container .popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #2E6A7C;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+  }
+  
+  /* Popup arrow */
+  .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  /* Toggle this class when clicking on the popup container (hide and show the popup) */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+  }
+  
+  
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+
 /* start button*/
 .btn {
     width: 45%;
@@ -119,11 +188,13 @@ main{
     nav ul li a {
         padding: 12px 12px;
     }
-    
+
     .game-quiz-container{
         width: 90%;
         height: 80vh;
      }
+     
+
      .game-details-container h1{
         font-size: 0.8rem;
      }
@@ -131,8 +202,8 @@ main{
      .game-question-container{
         height: 6rem;
      }
-     .game-question-container h1{
-       font-size: 0.9rem;
+     .game-question-container {
+       font-size: 0.7rem;
     }
  
     .game-options-container span{
@@ -166,12 +237,16 @@ main{
        width: 90%;
        height: 80vh;
     }
+
+
     .game-details-container h1{
         font-size: 1rem;
     }
 
     .game-question-container{
         height: 8rem;
+        font-size: 0.9rem;
+        
     }
 
     .game-question-container h1{
