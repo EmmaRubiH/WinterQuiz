@@ -144,6 +144,11 @@ main{
     -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s
   }
+
+  .popup ol {
+    list-style-type: decimal;
+    list-style-position: inside;
+  }
   
   
   @-webkit-keyframes fadeIn {
@@ -202,7 +207,7 @@ main{
      }
  
      .game-question-container{
-        height: 6rem;
+        height: 8rem;
      }
      .game-question-container {
        font-size: 0.7rem;
@@ -246,7 +251,7 @@ main{
     }
 
     .game-question-container{
-        height: 8rem;
+        height: 10rem;
         font-size: 0.9rem;
         
     }
