@@ -189,16 +189,21 @@ main{
 @media(min-width : 300px) and (max-width : 350px){
     .top h1 {
         width: 100px;
+        font-size: 1.8rem;
 
     }
 
     nav ul li a {
-        padding: 12px 12px;
+        padding: 8px 8px;
+        line-height: 50px;
+        font-size: 15px;
+        
+
     }
 
     .game-quiz-container{
         width: 90%;
-        height: 80vh;
+        height: 75vh;
      }
      
 
