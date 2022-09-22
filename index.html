@@ -33,20 +33,20 @@
             <h2><i class="far fa-snowflake"></i>    <i class="far fa-snowflake"></i>    <i class="far fa-snowflake"></i></h2>
             <p class="game-question-container">
                 A QUIZ ABOUT WINTER
-
-                
-        
-                        <div id="box">
-                            <span id="button">Write your name:</span>
-                           <form action="" id="form">
-                             <p><input type="text" placeholder="username"/></p>
-                             
-                           </form>
-                        
-                    
-              </div>
-              <!-- Start button -->
-            <a class="btn" href="./game.html">PLAY NOW</a>
+                <div class="quiz__box">
+                    <!-- To get a username before start the game -->
+                    <div id="start">
+                      <h2>Are you ready?</h2>
+                      <form id="new-user">
+                        <label id="message" for="username">Enter a username to start the game</label>
+                        <input type="text" id="username" name="username" placeholder="username" maxlength="15" required>          
+                        <br>
+                        <button class="btn btn--full" type="submit" id="start-game">
+                            <a href="./game.html">Start</a>
+                        </button>
+                      </form>
+                      
+                    </div>
             
             </div>
     </main>

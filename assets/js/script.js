@@ -295,3 +295,23 @@ function myFunction() {
   var popup = document.getElementById("myPopup");
   popup.classList.toggle("show");
 }
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    const form = document.getElementById('new-user');
+    
+    form.addEventListener('submit', (event) => {
+      event.preventDefault();
+  
+      const message = document.getElementById('message');
+  
+      if (username.value === " ") {      
+        message.innerText = 'Enter a valid username';
+        message.setAttribute('class', 'message');
+      } else {
+        message.innerText = 'Enter a username to start the game';
+        message.removeAttribute('class', 'message');
+        loadQuiz();
+      }    
+    })  
+  });  
