@@ -199,20 +199,20 @@ i {
     border: 2px solid darkgray;
     border-radius: 10px;
     overflow: hidden;
-    background: whitesmoke;
+    background: #2E6A7C;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 2rem;
-    color: black;
+    color: white;
     text-decoration: none;
 }
 .btn:hover {
     -ms-transform: scale(1.12);
     -webkit-transform: scale(1.12);
     transform: scale(1.12);
-    background: #2E6A7C;
-    color: white;
+    background: whitesmoke;
+    color: black;
 }
 
 /* All media q starts here */
