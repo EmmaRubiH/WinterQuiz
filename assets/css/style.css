@@ -102,9 +102,9 @@ i {
     border: 2px dashed black;
     border-radius: 25px;
     background: #2E6A7C;
-    font-size: 2rem;
+    font-size: 2.7rem;
     text-align: center;
-    padding: 3px;
+    padding: 2.5px;
     color: white;
 }
 
@@ -113,7 +113,30 @@ i {
     position: relative;
     display: inline-block;
     cursor: pointer;
-    font-weight: bold;
+    
+    width: 45%;
+    height: 3rem;
+    border: 2px solid darkgray;
+    border-radius: 10px;
+   
+    background: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    color: black;
+    
+  
+}
+    
+
+
+.popup:hover {
+    -ms-transform: scale(1.12);
+    -webkit-transform: scale(1.12);
+    transform: scale(1.12);
+    background: #2E6A7C;
+    color: white;
 }
 
 /* The actual popup (appears on top) */
@@ -131,7 +154,7 @@ i {
     left: 2%;
     margin-left: -80px;
     font-size: 1.3rem;
-    letter-spacing: 1;
+    letter-spacing: 2;
   }
   
   /* Popup arrow */
@@ -213,17 +236,25 @@ i {
         width: 90%;
         height: 75vh;
      }
+     .game-quiz-container .popup {
+        font-size: 0.9rem;
+     }
+     .popup .popuptext {
+        font-size: 0.9rem;
+        width: 200px;
+     }
      
 
      .game-details-container h1{
         font-size: 0.8rem;
      }
+    
  
      .game-question-container{
         height: 8rem;
      }
      .game-question-container {
-       font-size: 0.7rem;
+       font-size: 0.9rem;
     }
  
     .game-options-container span{
@@ -240,6 +271,9 @@ i {
     
     .modal-content-container h1{
         font-size: 1.2rem;
+    }
+    .btn {
+        font-size: 0.9rem;
     }
 }
 
