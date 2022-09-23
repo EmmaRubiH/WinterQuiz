@@ -23,7 +23,6 @@
             <nav>
                 <ul>
                     <li><a class="active" href="./index.html">Start</a></li>
-                    <li><a href="./game.html">Quiz</a></li>
                     <li><button id="myBtn">Info</button>
                         <!-- The Modal -->
                         <div id="myModal" class="modal">
@@ -56,11 +55,12 @@
 
                 <!-- To get a username before start the game -->
                 <h3>Are you ready?</h3>
-                <form id="new-user">
+                <form action="./game.html" id="new-user">
                     <label id="message" for="username">Enter a username to start the game</label>
                     <input type="text" id="username" name="username" placeholder="username" maxlength="15" required>
                     <br>
                     <button class="btn btn--full" type="submit" id="start-game">
+                        LETS GO!
                     </button>
                 </form>
 
