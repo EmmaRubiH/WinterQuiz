@@ -1,17 +1,17 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-  
-html, body{
+
+html,
+body {
     height: 100%;
 }
 
 
-body{
+body {
     font-family: 'Montserrat', serif;
-    
 }
 
 /* nav and header start*/
@@ -21,8 +21,9 @@ header {
     left: 0;
     width: 100%;
     box-sizing: border-box;
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0, 0, 0, 0.2);
 }
+
 .top {
     max-width: 1200px;
     margin: auto;
@@ -53,7 +54,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0, 0, 0, 0.2);
     border-radius: 6px;
 }
 
@@ -70,57 +71,59 @@ nav ul li button {
     display: flex;
     color: black;
     margin-top: 9px;
-    padding: 8px 15px;
+    padding: 12px 30px;
     text-decoration: none;
-    line-height: 25px;
+   
     font-size: 16px;
     border-radius: 6px;
     background: whitesmoke;
     border-style: none;
 }
+
 nav ul li button:hover {
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0, 0, 0, 0.2);
     border-radius: 6px;
     color: white;
 }
 
 .modal {
-    display: none; 
-    position: fixed; 
-    z-index: 1; 
+    display: none;
+    position: fixed;
+    z-index: 1;
     left: 0;
     top: 0;
-    width: 100%; 
-    height: 100%; 
-    overflow: auto; 
-    
-  }
-  
-  /* Modal Content/Box */
-  .modal-content {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+
+}
+
+/* Modal Content/Box */
+.modal-content {
     background-color: #fefefe;
-    margin: 15% auto; 
+    margin: 15% auto;
     padding: 13px 30px;
-   border-radius: 6px;
-    width: 80%; 
-  }
-  
-  /* The Close Button */
-  .close {
+    border-radius: 6px;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
     color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
+}
+
+.close:hover,
+.close:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
-  }
+}
+
 /* main page styling */
-main{
+main {
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -129,13 +132,14 @@ main{
     align-items: center;
     background-color: black;
     background: url('../image/winter-6590863_1280.webp');
-    background-color : black;
+    background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
+
 /* container for start */
-.game-quiz-container{
+.game-quiz-container {
     width: 40rem;
     height: 30rem;
     background-color: #8DAEB8;
@@ -146,6 +150,7 @@ main{
     border-radius: 30px;
     font-size: 2rem;
 }
+
 i {
     color: #2E6A7C;
 }
@@ -156,7 +161,7 @@ i {
     justify-items: center;
 }
 
-.game-question-container{
+.game-question-container {
     width: 80%;
     height: 8rem;
     display: flex;
@@ -176,22 +181,22 @@ i {
     position: relative;
     display: inline-block;
     cursor: pointer;
-    
+
     width: 45%;
     height: 3rem;
     border: 2px solid darkgray;
     border-radius: 10px;
-   
+
     background: whitesmoke;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 1.3rem;
     color: black;
-    
-  
+
+
 }
-    
+
 
 
 .popup:hover {
@@ -210,7 +215,7 @@ i {
     color: black;
     text-align: center;
     border-radius: 6px;
-    padding: 8px ;
+    padding: 8px;
     position: absolute;
     z-index: 1;
     bottom: 125%;
@@ -218,10 +223,10 @@ i {
     margin-left: -80px;
     font-size: 1.3rem;
     letter-spacing: 2;
-  }
-  
-  /* Popup arrow */
-  .popup .popuptext::after {
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
     content: "";
     position: absolute;
     top: 100%;
@@ -230,30 +235,40 @@ i {
     border-width: 5px;
     border-style: solid;
     border-color: black transparent transparent transparent;
-  }
-  
-  /* hide and show the popup */
-  .popup .show {
+}
+
+/* hide and show the popup */
+.popup .show {
     visibility: visible;
     -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s
-  }
+}
 
-  .popup ol {
+.popup ol {
     list-style-type: decimal;
     list-style-position: inside;
-  }
-  
-  
-  @-webkit-keyframes fadeIn {
-    from {opacity: 0;}
-    to {opacity: 1;}
-  }
-  
-  @keyframes fadeIn {
-    from {opacity: 0;}
-    to {opacity:1 ;}
-  }
+}
+
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
 
 /* start button*/
 .btn {
@@ -270,6 +285,7 @@ i {
     color: white;
     text-decoration: none;
 }
+
 .btn:hover {
     -ms-transform: scale(1.12);
     -webkit-transform: scale(1.12);
@@ -280,7 +296,7 @@ i {
 
 /* All media q starts here */
 
-@media(min-width : 300px) and (max-width : 350px){
+@media(min-width : 300px) and (max-width : 350px) {
     .top h1 {
         width: 100px;
         font-size: 1.8rem;
@@ -291,56 +307,67 @@ i {
         padding: 8px 8px;
         line-height: 50px;
         font-size: 15px;
-        
+
 
     }
+    nav ul li button {
+        padding: 8px 8px;
+        font-size: 15px;
+       margin-top: 7px;
+    }
 
-    .game-quiz-container{
+    .game-quiz-container {
         width: 90%;
         height: 75vh;
-     }
-     .game-quiz-container .popup {
+    }
+
+    .game-quiz-container .popup {
         font-size: 0.9rem;
-     }
-     .popup .popuptext {
+    }
+
+    .popup .popuptext {
         font-size: 0.9rem;
         width: 200px;
-     }
-     
-
-     .game-details-container h1{
-        font-size: 0.8rem;
-     }
-    
- 
-     .game-question-container{
-        height: 8rem;
-     }
-     .game-question-container {
-       font-size: 0.9rem;
     }
- 
-    .game-options-container span{
+
+
+    .game-details-container h1 {
+        font-size: 0.8rem;
+    }
+
+
+    .game-question-container {
+        height: 8rem;
+    }
+
+    .game-question-container {
+        font-size: 0.9rem;
+    }
+
+    .game-options-container span {
         width: 90%;
         height: 2.5rem;
     }
-    .game-options-container span label{
+
+    .game-options-container span label {
         font-size: 0.8rem;
     }
-    .modal-content-container{
+
+    .modal-content-container {
         width: 90%;
         height: 25rem;
     }
-    
-    .modal-content-container h1{
+
+    .modal-content-container h1 {
         font-size: 1.2rem;
     }
+
     .btn {
         font-size: 0.9rem;
     }
 }
 
-@media(min-width : 350px) and (max-width : 700px){
+@media(min-width : 350px) and (max-width : 700px) {
     .top h1 {
         width: 100px;
 
@@ -350,44 +377,60 @@ i {
         padding: 12px 12px;
     }
 
-   .game-quiz-container{
-       width: 90%;
-       height: 80vh;
+    nav ul li button {
+        padding: 12px 12px;
+    }
+
+    .game-quiz-container {
+        width: 90%;
+        height: 80vh;
     }
 
 
-    .game-details-container h1{
+    .game-details-container h1 {
         font-size: 1rem;
     }
 
-    .game-question-container{
+    .game-question-container {
         height: 10rem;
         font-size: 1.2rem;
-        
+
     }
 
-    .game-question-container h1{
+    .game-question-container h1 {
         font-size: 1.2rem;
-     }
+    }
 
-    .game-options-container span{
+    .game-options-container span {
         width: 90%;
     }
-    .modal-content-container{
+
+    .modal-content-container {
         width: 90%;
         height: 25rem;
     }
-    .modal-content-container h1{
+
+    .modal-content-container h1 {
         font-size: 1.2rem;
     }
 }
 
 @keyframes fadeIn {
-    from {opacity: 0;}
-    to {opacity:1 ;}
-  }
+    from {
+        opacity: 0;
+    }
 
-  @-webkit-keyframes fadeIn {
-    from {opacity: 0;}
-    to {opacity: 1;}
-  }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
