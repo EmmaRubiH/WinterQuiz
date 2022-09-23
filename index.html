@@ -1,54 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="An interactive quiz about winter, built using HTML, CSS and Javascript">
     <meta name="keywords" content="quiz, interactive, winter, HTML, CSS, Javascript">
-   <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
-  <!-- favicon -->
-   <link rel="icon" type="image/x-icon" href="assets/image/favicon-32x32.png">
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/image/favicon-32x32.png">
 
-   <title>WinterQuiz</title>
+    <title>WinterQuiz</title>
 </head>
+
 <body>
-     <!-- Header start here, with nav-->
-     <header>
+    <!-- Header start here, with nav-->
+    <header>
         <div class="top">
             <h1>WinterQuiz</h1>
             <nav>
-            <ul>
-              <li><a class="active" href="./index.html">Start</a></li>
-              <li><a href="./game.html">Quiz</a></li>
-            </ul>
-           </nav>
+                <ul>
+                    <li><a class="active" href="./index.html">Start</a></li>
+                    <li><a href="./game.html">Quiz</a></li>
+                    <li><button id="myBtn">Info</button>
+                        <!-- The Modal -->
+                        <div id="myModal" class="modal">
+
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <p>The quiz contains 10 questions.
+                                    <br>
+                                    You will get the option to choose between 4 alternativs to the question.
+                                    <br>
+                                    When you have chosen your answers, a pop up window will show whit your score.
+                                </p>
+                            </div>
+
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+
         </div>
     </header>
 
     <!-- container and text -->
     <main>
         <div class="game-quiz-container">
-            <h2><i class="far fa-snowflake"></i>    <i class="far fa-snowflake"></i>    <i class="far fa-snowflake"></i></h2>
+            <h2><i class="far fa-snowflake"></i> <i class="far fa-snowflake"></i> <i class="far fa-snowflake"></i></h2>
             <p class="game-question-container">
                 A QUIZ ABOUT WINTER
-                <div class="quiz__box">
-                    <!-- To get a username before start the game -->
-                    <div id="start">
-                      <h2>Are you ready?</h2>
-                      <form id="new-user">
-                        <label id="message" for="username">Enter a username to start the game</label>
-                        <input type="text" id="username" name="username" placeholder="username" maxlength="15" required>          
-                        <br>
-                        <button class="btn btn--full" type="submit" id="start-game">
-                            <a href="./game.html">Start</a>
-                        </button>
-                      </form>
-                      
-                    </div>
-            
-            </div>
+
+                <!-- To get a username before start the game -->
+                <h3>Are you ready?</h3>
+                <form id="new-user">
+                    <label id="message" for="username">Enter a username to start the game</label>
+                    <input type="text" id="username" name="username" placeholder="username" maxlength="15" required>
+                    <br>
+                    <button class="btn btn--full" type="submit" id="start-game">
+                    </button>
+                </form>
+
+        </div>
+
+        </div>
     </main>
     <footer>
         <div>
@@ -59,6 +77,7 @@
     <!-- script/link to javachript and font awesome -->
     <script src="assets/js/script.js"></script>
     <script src="https://kit.fontawesome.com/5d9b95cc96.js" crossorigin="anonymous"></script>
-    
+
 </body>
+
 </html>
