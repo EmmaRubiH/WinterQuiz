@@ -21,6 +21,7 @@
                 <ul>
                     <li><a href="./index.html">Start</a></li>
                     <li><a class="active" href="./game.html">Quiz</a></li>
+                    <li id="username"></li>
                 </ul>
             </nav>
         </div>
@@ -72,8 +73,9 @@
                         </div>
                       
                     </div>
-                 
+                    
                </div>
+               
               
                 <span>
                     <input type="radio" id="option-one" name="option" class="radio" value="optionA" />
@@ -100,6 +102,7 @@
 
 
             </div>
+            <div class="hidden" id="correct-emoji"><i class="fas fa-star"></i> </div>
 
             <div class="next-button-container">
                 <button onclick="handleNextQuestion()">Next Question</button>
@@ -107,8 +110,7 @@
 
         </div>
     </main>
-    <script src="assets/js/script.js"></script>
-
+    <script src="assets/js/game.js"></script>
     <script src="https://kit.fontawesome.com/67fc50c355.js" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -104,7 +104,8 @@ nav ul li button:hover {
 
 /* Modal Content/Box */
 .modal-content {
-    background-color: #fefefe;
+    background-color: #2E6A7C;
+    color: white;
     margin: 15% auto;
     padding: 13px 30px;
     border-radius: 6px;

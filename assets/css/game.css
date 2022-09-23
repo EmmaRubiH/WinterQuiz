@@ -191,6 +191,9 @@ input[type=radio]:checked ~ .option {
     color: white;
 }
 
+.hidden {
+    display: none;
+}
 
 
 .modal-container{
