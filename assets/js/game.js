@@ -188,10 +188,6 @@ function checkForAnswer() {
     options.forEach((option) => {
         if (option.checked === true && option.value === currentQuestionAnswer) {
             document.getElementById(correctOption).style.backgroundColor = "green";
-
-            document.getElementById('correct-emoji').classList.remove("hidden");
-
-
             playerScore++;
             indexNumber++;
             //set to delay question number till when next question loads
