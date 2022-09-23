@@ -45,12 +45,14 @@ nav ul {
     padding-right: 10px;
 }
 
+
 nav ul li a {
     color: #fff;
     padding: 12px 30px;
     text-decoration: none;
     line-height: 60px;
     font-size: 16px;
+    
 }
 
 nav ul li a:hover {
@@ -71,6 +73,7 @@ nav ul li button {
     display: flex;
     color: black;
     margin-top: 9px;
+    margin-left: 3px;
     padding: 12px 30px;
     text-decoration: none;
    
@@ -78,6 +81,7 @@ nav ul li button {
     border-radius: 6px;
     background: whitesmoke;
     border-style: none;
+    
 }
 
 nav ul li button:hover {
@@ -160,6 +164,11 @@ i {
     display: contents;
     justify-items: center;
 }
+form {
+    display: flex;
+    text-align: center;
+    font-size: 25px;
+}
 
 .game-question-container {
     width: 80%;
@@ -174,100 +183,6 @@ i {
     text-align: center;
     padding: 2.5px;
     color: white;
-}
-
-
-.game-quiz-container .popup {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-
-    width: 45%;
-    height: 3rem;
-    border: 2px solid darkgray;
-    border-radius: 10px;
-
-    background: whitesmoke;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.3rem;
-    color: black;
-
-
-}
-
-
-
-.popup:hover {
-    -ms-transform: scale(1.12);
-    -webkit-transform: scale(1.12);
-    transform: scale(1.12);
-    background: #2E6A7C;
-    color: white;
-}
-
-/* The actual popup (appears on top) */
-.popup .popuptext {
-    visibility: hidden;
-    width: 350px;
-    background-color: whitesmoke;
-    color: black;
-    text-align: center;
-    border-radius: 6px;
-    padding: 8px;
-    position: absolute;
-    z-index: 1;
-    bottom: 125%;
-    left: 2%;
-    margin-left: -80px;
-    font-size: 1.3rem;
-    letter-spacing: 2;
-}
-
-/* Popup arrow */
-.popup .popuptext::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -10px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: black transparent transparent transparent;
-}
-
-/* hide and show the popup */
-.popup .show {
-    visibility: visible;
-    -webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s
-}
-
-.popup ol {
-    list-style-type: decimal;
-    list-style-position: inside;
-}
-
-
-@-webkit-keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 1;
-    }
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 1;
-    }
 }
 
 /* start button*/
@@ -311,9 +226,9 @@ i {
 
     }
     nav ul li button {
-        padding: 8px 8px;
+        padding: 8.5px 8px;
         font-size: 15px;
-       margin-top: 7px;
+       margin-top: 8px;
     }
 
     .game-quiz-container {
@@ -321,13 +236,11 @@ i {
         height: 75vh;
     }
 
-    .game-quiz-container .popup {
-        font-size: 0.9rem;
+    h3 {
+        font-size: 25px;
     }
-
-    .popup .popuptext {
-        font-size: 0.9rem;
-        width: 200px;
+    form {
+        font-size: 18px;
     }
 
 
@@ -379,11 +292,23 @@ i {
 
     nav ul li button {
         padding: 12px 12px;
+        margin-top: 8.5px;
     }
 
     .game-quiz-container {
         width: 90%;
         height: 80vh;
+    }
+
+    h3 {
+        font-size: 28px;
+    }
+    form {
+        font-size: 20px;
+    }
+
+    #start-game {
+        font-size: 20px;
     }
 
 
