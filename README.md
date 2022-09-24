@@ -96,3 +96,47 @@ To achieve this:
  * To icons there is clickable to take the user to eather Facebook eller Instagram.
 
  ![footer](/assets/image/footer.png)
+
+## Technologies used
+
+* HTML as structure language
+* CSS as style language
+* JavaScript as dynamic functions language
+* Google Fonts as font resource
+* Font Awesome
+* GitHub as software hosting platform
+* Google translate
+
+## Testing and Validation
+
+The code has been tested with:
+
+* W3C Markup validation service
+* W3C CSS validation service
+* JavaScript vaildation with JSHint
+
+* lighthouse test:
+
+### Unfixed Bugs
+
+
+## Deployment
+
+The site was deployed to GITHUB pages. The steps to deploy are as follows
+* In GITHUB repository, navigate ro the setting tab
+* From the source section drop-down menu, select the Master Branch
+* Once the master branch has been selected, the page provide the link to the completed website.
+
+## Credits
+
+Youtube: Random quiz app [Youtube](https://youtu.be/QU6z69P5BrU)
+
+Stack Overflow [link](https://stackoverflow.com/)
+
+w3school [link](https://www.w3schools.com/)
+
+Tutorial for quiz [link](https://simplestepscode.com/javascript-quiz-tutorial/)
+
+Google translate
+
+Image for background [link](https://www.freepik.com)
