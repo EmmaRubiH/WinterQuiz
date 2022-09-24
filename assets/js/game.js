@@ -177,7 +177,7 @@ function checkForAnswer() {
             //get's correct's radio input with correct answer
             correctOption = option.labels[0].id;
         }
-    })
+    });
    
     //checking to make sure a radio input has been checked or an option being chosen
     if (options[0].checked === false && options[1].checked === false && options[2].checked === false && options[3].checked == false) {
@@ -291,12 +291,12 @@ function closeOptionModal() {
     document.getElementById('option-modal').style.display = "none";
 }
 
-const usernameStorage = localStorage.getItem("username")
-const usernameDom = document.getElementById("username")
+const usernameStorage = localStorage.getItem("username");
+const usernameDom = document.getElementById("username");
 
-usernameDom.innerHTML =`<a>${usernameStorage}</a>`
+usernameDom.innerHTML =`<a>${usernameStorage}</a>`;
 
-console.log(usernameStorage, '<==temp')
+console.log(usernameStorage, '<==temp');
 
 
 
