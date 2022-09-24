@@ -218,6 +218,8 @@ footer {
     height: 60px;
     text-align: center;
 }
+
+
 #social-networks {
     display: flex;
     flex-direction: row;
@@ -226,6 +228,7 @@ footer {
 }
 #social-networks li {
     margin: 4px;
+    font-size: 25px;
 }
 
 /* All media q starts here */

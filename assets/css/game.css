@@ -237,7 +237,6 @@ input[type=radio]:checked ~ .option {
 .userbox {
     background: #2E6A7C;
     color: white;
-    font-weight: bold;
     display: block;
     width: 10rem;
     height: 2.5rem;
@@ -298,10 +297,12 @@ text-align: center;
     list-style: none;
 }
 #social-networks li {
-    margin: 4px;;
+    margin: 4px;
+    font-size: 25px;
 }
 i {
     color: #2E6A7C;
+    
 }
 
 /* All media q starts here*/
@@ -322,6 +323,9 @@ i {
     .game-quiz-container{
         width: 90%;
         height: 75vh;
+     }
+     .userbox {
+        font-size: 0.8rem;
      }
      .game-details-container h1{
         font-size: 0.8rem;
@@ -356,6 +360,7 @@ i {
     }
     footer {
         height: 50px;
+        font-size: 0.8rem;
     }
 
 }

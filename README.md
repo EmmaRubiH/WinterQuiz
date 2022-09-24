@@ -83,4 +83,16 @@ To achieve this:
 
 ![quiz](/assets/image/quizgame.png)
 
+### Scores
+* At the end when the user has answered the last question. Then they come to a scoreboard that pops up.
+* Here they can see how many correct answers and how many wrong answers they got on the quiz. The user can also see their rating in percentage
+* The user will also receive a text describing how the quiz went.
+* The user can now choose between two buttons. If you want to continue one more time or if you want to go to the start.
+
+![scores](/assets/image/score.png)
  
+ ### Footer
+ * At the bottom of the page, the user can see who created the quiz.
+ * To icons there is clickable to take the user to eather Facebook eller Instagram.
+
+ ![footer](/assets/image/footer.png)
