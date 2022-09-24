@@ -10,7 +10,6 @@ html, body{
     height: 100%;
 }
 
-
 body{
     font-family: 'Montserrat', serif;
     
@@ -243,8 +242,7 @@ input[type=radio]:checked ~ .option {
     border-radius: 6px;
     margin-top: 3px;
     text-align: center;
-    border: 1px solid black;
-    
+    border: 1px solid black; 
 }
 
 .grade-details{
@@ -280,9 +278,11 @@ input[type=radio]:checked ~ .option {
     cursor: pointer;
     border-radius: 20px;
 }
+
 .modal-button-container button:hover{
     background-color: rgb(83, 82, 82);
 }
+
 footer {
 position: absolute;
 bottom: 0;
@@ -290,28 +290,29 @@ width: 100%;
 height: 60px;
 text-align: center;
 }
+
 #social-networks {
     display: flex;
     flex-direction: row;
     justify-content: center;
     list-style: none;
 }
+
 #social-networks li {
     margin: 4px;
     font-size: 25px;
 }
+
 i {
     color: #2E6A7C;
     
 }
 
 /* All media q starts here*/
-
 @media(min-width : 300px) and (max-width : 350px){
     .top h1 {
         width: 100px;
         font-size: 1.8rem;
-
     }
 
     nav ul li a {
@@ -324,9 +325,11 @@ i {
         width: 90%;
         height: 75vh;
      }
+
      .userbox {
         font-size: 0.8rem;
      }
+
      .game-details-container h1{
         font-size: 0.8rem;
      }
@@ -335,6 +338,7 @@ i {
         height: 6rem;
         margin-bottom: 3px;
      }
+
      .game-question-container div{
         font-size: 0.9rem;
      }
@@ -347,9 +351,11 @@ i {
         width: 90%;
         height: 2.5rem;
     }
+
     .game-options-container span label{
         font-size: 0.6rem;
     }
+
     .modal-content-container{
         width: 90%;
         height: 25rem;
@@ -358,26 +364,27 @@ i {
     .modal-content-container h1{
         font-size: 1.2rem;
     }
+
     footer {
         height: 50px;
         font-size: 0.8rem;
     }
-
 }
 
 @media(min-width : 350px) and (max-width : 700px){
     .top h1 {
         width: 100px;
-
     }
 
     nav ul li a {
         padding: 12px 12px;
     }
+
    .game-quiz-container{
        width: 90%;
        height: 80vh;
     }
+    
     .game-details-container h1 {
         font-size: 1.1rem;
     }

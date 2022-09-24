@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Serif&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +10,6 @@ html,
 body {
     height: 100%;
 }
-
 
 body {
     font-family: 'Montserrat', serif;
@@ -46,14 +46,12 @@ nav ul {
     padding-right: 10px;
 }
 
-
 nav ul li a {
     color: #fff;
     padding: 12px 30px;
     text-decoration: none;
     line-height: 60px;
     font-size: 16px;
-    
 }
 
 nav ul li a:hover {
@@ -77,12 +75,11 @@ nav ul li button {
     margin-left: 3px;
     padding: 12px 30px;
     text-decoration: none;
-   
+
     font-size: 16px;
     border-radius: 6px;
     background: whitesmoke;
     border-style: none;
-    
 }
 
 nav ul li button:hover {
@@ -100,7 +97,6 @@ nav ul li button:hover {
     width: 100%;
     height: 100%;
     overflow: auto;
-
 }
 
 /* Modal Content/Box */
@@ -161,11 +157,11 @@ i {
     color: #2E6A7C;
 }
 
-
 #new-user {
     display: contents;
     justify-items: center;
 }
+
 form {
     display: flex;
     text-align: center;
@@ -226,13 +222,13 @@ footer {
     justify-content: center;
     list-style: none;
 }
+
 #social-networks li {
     margin: 4px;
     font-size: 25px;
 }
 
 /* All media q starts here */
-
 @media(min-width : 300px) and (max-width : 350px) {
     .top h1 {
         width: 100px;
@@ -244,13 +240,12 @@ footer {
         padding: 8px 8px;
         line-height: 50px;
         font-size: 15px;
-
-
     }
+
     nav ul li button {
         padding: 8.5px 8px;
         font-size: 15px;
-       margin-top: 8px;
+        margin-top: 8px;
     }
 
     .game-quiz-container {
@@ -261,6 +256,7 @@ footer {
     h3 {
         font-size: 25px;
     }
+
     form {
         font-size: 12px;
     }
@@ -281,7 +277,6 @@ footer {
 @media(min-width : 350px) and (max-width : 700px) {
     .top h1 {
         width: 100px;
-
     }
 
     nav ul li a {
@@ -301,6 +296,7 @@ footer {
     h3 {
         font-size: 28px;
     }
+
     form {
         font-size: 20px;
     }
@@ -312,13 +308,11 @@ footer {
     .game-question-container {
         height: 10rem;
         font-size: 1.2rem;
-
     }
 
     .game-question-container h1 {
         font-size: 1.2rem;
     }
-    
 }
 
 @keyframes fadeIn {

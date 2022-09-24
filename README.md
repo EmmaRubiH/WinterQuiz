@@ -1,4 +1,7 @@
-# Winter Quiz
+# Emmas Winter Quiz Project
+
+![start multi page](/assets/image/Ska%CC%88rmavbild%202022-09-24%20kl.%2012.37.25.png)
+
 This is a browser based Quiz game constructed with JavaScript, CSS and HTML.
 Its allows the user to answer 10 randomly questions, and in the end receive a score.
 The ide with this quix was to creat a curiosity about winter times. You might long for the snow, christmas or the feeling around winter. Then this quiz is great.
@@ -22,11 +25,11 @@ To achieve this:
 
  First page idea. will be the star:
 
- ![first page](/assets/image/Ska%CC%88rmavbild%202022-09-20%20kl.%2010.12.43.png)
+ ![first page](/assets/image/ny2.png) 
 
- Secund page idea, The Quiz:
+  Second page idea, The Quiz:
 
- ![second page](/assets/image/Ska%CC%88rmavbild%202022-09-20%20kl.%2010.12.56.png)
+ ![second page](/assets/image/ny.png)
 
  Mobile idea:
 
@@ -44,8 +47,6 @@ To achieve this:
 
  ### Existing Features
 
- * The WinterQuiz Logo, Heading and Nav
-   * This is simply the title of the page. There are two click-buttons (Start, Quiz) whick can be easily accessed from anywhere within the site.
 
 ### Home/Start page
 
@@ -109,6 +110,18 @@ To achieve this:
 
 ## Testing and Validation
 
+### Testing
+
+* I tested that this page works in different browsers: Chrome, Firefox, Safari.
+
+* I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar.
+
+* I confirmed that the navigation, header, home, about us and contact text are all readable and easy to understand.
+
+* I have confirmed that the form works.
+
+### Validation
+
 The code has been tested with:
 
 * W3C Markup validation service
@@ -140,3 +153,8 @@ Tutorial for quiz [link](https://simplestepscode.com/javascript-quiz-tutorial/)
 Google translate
 
 Image for background [link](https://www.freepik.com)
+
+Google Fonts [link](https://fonts.google.com/)
+
+Icons [Font Awesome](https://fontawesome.com/v5/search)
+
