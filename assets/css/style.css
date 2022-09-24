@@ -259,7 +259,7 @@ footer {
         font-size: 25px;
     }
     form {
-        font-size: 18px;
+        font-size: 12px;
     }
 
     .game-question-container {
@@ -315,6 +315,7 @@ footer {
     .game-question-container h1 {
         font-size: 1.2rem;
     }
+    
 }
 
 @keyframes fadeIn {
