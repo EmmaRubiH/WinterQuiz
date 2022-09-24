@@ -97,10 +97,6 @@ main{
     align-items: center;
     color: black;
 }
-i {
-    color: #5891db;
-    font-size: 1.3rem;
-}
 
 .game-details-container h1{
     font-size: 1.8rem;
@@ -135,7 +131,7 @@ i {
 .game-options-container span{
     width: 45%;
     height: 3rem;
-    border: 2px solid darkgray;
+    border: 2px solid #AAAAAA;
     border-radius: 10px;
     overflow: hidden;
     background: whitesmoke;
@@ -167,7 +163,7 @@ input[type="radio"] {
 
 
 input[type=radio]:checked ~ .option {
-	background: paleturquoise;
+	background: #afeeee;
 }
 /* next button starts */
 .next-button-container{
@@ -229,7 +225,7 @@ input[type=radio]:checked ~ .option {
 .modal-content-container h1{
     font-size: 1.3rem;
     height: 3rem;
-    color: lightgray;
+    color: #AAAAAA;
     text-align: center;
 }
 
@@ -384,7 +380,7 @@ i {
        width: 90%;
        height: 80vh;
     }
-    
+
     .game-details-container h1 {
         font-size: 1.1rem;
     }

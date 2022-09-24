@@ -9,6 +9,8 @@ The user kan use this quiz for example on Christmas, holidays or why not among f
 
 Its not only questions about snow, its will take the user to another level of winter questions. Maybe it will be useful knowledge or it will feel like a funny quiz.
 
+Visit the WinterQuiz here [The Quiz Page](https://emmarubih.github.io/WinterQuiz/)
+
 ## Goals
 
 * Create a fun interactive quiz
@@ -41,7 +43,16 @@ To achieve this:
 
 #### The color chosen for the project are:
 
+This is the primary colors used for the website.
+And i used black an white color for text.
+
+![color board](/assets/image/colors%20board.png)
+
 ### Fonts
+
+Google fonts:
+* Montserrat
+* Serif
 
  ## Features
 
@@ -98,6 +109,9 @@ To achieve this:
 
  ![footer](/assets/image/footer.png)
 
+ ### Features left to implement
+ * A saving for score board. And send it to email
+
 ## Technologies used
 
 * HTML as structure language
@@ -107,6 +121,7 @@ To achieve this:
 * Font Awesome
 * GitHub as software hosting platform
 * Google translate
+* Devtools
 
 ## Testing and Validation
 
@@ -130,7 +145,12 @@ The code has been tested with:
 
 * lighthouse test:
 
-### Unfixed Bugs
+![lighthouse](/assets/image/validation.png)
+
+### Bugs
+I hade som problems figure out how to get frome start page to game page. It was easy with html. But that was not how i should do it. 
+I wanted to use JavaScript. Finaly i asked my super mentor for help. And he showed me ways to go and figure it out. By explaning more about localStorage.
+You can not solve everything by your self. And i realise that! It is okey to ask for help.
 
 
 ## Deployment
@@ -157,4 +177,6 @@ Image for background [link](https://www.freepik.com)
 Google Fonts [link](https://fonts.google.com/)
 
 Icons [Font Awesome](https://fontawesome.com/v5/search)
+
+favicon [link](https://favicon.io/)
 
