@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Serif&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -237,7 +239,7 @@ input[type=radio]:checked ~ .option {
     color: white;
     font-weight: bold;
     display: block;
-    width: 5rem;
+    width: 10rem;
     height: 2.5rem;
     border-radius: 6px;
     margin-top: 3px;
@@ -296,7 +298,7 @@ text-align: center;
     list-style: none;
 }
 #social-networks li {
-    margin: 4px;
+    margin: 4px;;
 }
 i {
     color: #2E6A7C;
@@ -327,9 +329,10 @@ i {
  
      .game-question-container{
         height: 6rem;
+        margin-bottom: 3px;
      }
      .game-question-container div{
-        font-size: 1rem;
+        font-size: 0.9rem;
      }
 
      .game-question-container h1{
@@ -341,7 +344,7 @@ i {
         height: 2.5rem;
     }
     .game-options-container span label{
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
     .modal-content-container{
         width: 90%;
@@ -350,6 +353,9 @@ i {
     
     .modal-content-container h1{
         font-size: 1.2rem;
+    }
+    footer {
+        height: 50px;
     }
 
 }
