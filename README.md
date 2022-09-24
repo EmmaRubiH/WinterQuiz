@@ -50,5 +50,37 @@ To achieve this:
 ### Home/Start page
 
 * This is a welcome page, whit information about the quiz.
-* This section provides a clickabel button there users can click on to start the quiz.
+* This section provides a clickabel button there users can see to clickabel buttons with text Start and Info.
+
+![header](/assets/image/header.png)
+
+* The Info button is a popup, where the user can see info about the winter quiz.
+
+![info](/assets/image/info.png)
+
+### Start box
+
+* When the user comes to the home page, they see a start "box".
+* The user sees a text that clarifies what the quiz is about.
+* Then a question is asked if the user is ready to start the quiz. To make the user a little curious.
+* To start the quiz, user need to write there name.
+
+![start box](/assets/image/firstpage.png)
+
+* The user enters their name to continue.
+* Then the user clicks on the button that takes them on to the quiz.
+
+![username](/assets/image/username.png)
+
+### The quiz
+
+* On the quiz box, the user will see that their chosen name is at the top of the box.
+* A score board has been created for the user so that you can follow how many correct answers they have and how many questions they have answered.
+* A question box has been created. With 4 answer options for each question.
+*The selected question the user has pressed will then turn blue.
+* When the user clicks on the next question. They will quickly see if they have answer right or wrong. Two colors pop up with red for wrong and green for right.
+* Then continues to next question.
+
+![quiz](/assets/image/quizgame.png)
+
  
