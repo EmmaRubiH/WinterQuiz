@@ -5,16 +5,16 @@ const questions = [
         question: "Where was the first ICE-Hotel built ?",
         optionA: "The United States",
         optionB: "Norway",
-        optionC: "Alaska",
+        optionC: "Canada",
         optionD: "Sweden",
         correctOption: "optionD"
     },
 
     {
-        question: "What winter sport uses sticks and plucks to play ?",
+        question: "What winter sport uses sticks and pucks to play ?",
         optionA: "Baseball",
         optionB: "Hockey",
-        optionC: "floorball",
+        optionC: "Floorball",
         optionD: "Rugby",
         correctOption: "optionB"
     },
@@ -56,7 +56,7 @@ const questions = [
     },
 
     {
-        question: "Which place on earth receives the longest period of daylight on 21 of December ?",
+        question: "Which place on earth receives the longest period of daylight on 21st of December ?",
         optionA: "The North Pole",
         optionB: "Scandinavia",
         optionC: "The south Pole",
@@ -74,11 +74,11 @@ const questions = [
     },
 
     {
-        question: "How do deer survive the winter ?",
+        question: "How does the deer survive the winter ?",
         optionA: "They hunt more",
         optionB: "They burrow together",
         optionC: "They hibernate",
-        optionD: "They become less active,eat less",
+        optionD: "Become less active & eat less",
         correctOption: "optionD"
     },
 

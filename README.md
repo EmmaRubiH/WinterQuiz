@@ -25,7 +25,7 @@ To achieve this:
 
  ## Wireframe
 
- First page idea. will be the star:
+ First page idea. will be the start:
 
  ![first page](/assets/image/ny2.png) 
 
