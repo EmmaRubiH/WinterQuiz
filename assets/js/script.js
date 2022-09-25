@@ -1,14 +1,11 @@
 // Get the modal
 var modal = document.getElementById("myModal");
 
-
 var btn = document.getElementById("myBtn");
-
 
 var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks on the button, open the modal
-
 btn.onclick = function() {
   modal.style.display = "block";
 }
@@ -24,11 +21,10 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
-
+// To get username from start to game page
 const form = document.getElementById("new-user")
 const usernameDom = document.getElementById("username")
 const usernameStorage = localStorage.getItem("username")
-
 
 console.log(usernameStorage, '<==temp')
 
@@ -43,5 +39,4 @@ form.addEventListener("submit", function(e){
         window.location = 'game.html'
        localStorage.setItem("username", username)
     }
-
 })
