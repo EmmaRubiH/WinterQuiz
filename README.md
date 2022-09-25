@@ -2,14 +2,9 @@
 
 ![start multi page](/assets/image/Ska%CC%88rmavbild%202022-09-24%20kl.%2012.37.25.png)
 
-This is a browser based Quiz game constructed with JavaScript, CSS and HTML.
-Its allows the user to answer 10 randomly questions, and in the end receive a score.
-The ide with this quix was to creat a curiosity about winter times. You might long for the snow, christmas or the feeling around winter. Then this quiz is great.
-The user kan use this quiz for example on Christmas, holidays or why not among friends on a normal day.
+This is a browser-based quiz game constructed with JavaScript, CSS and HTML. It allows the user to answer 10 random questions, and in the end receive a score.The idea for this quiz was to create a curiosity about winter times. You might long for the snow, Christmas or the feeling around winter. Then this quiz is great.The user can use this quiz, for example, on Christmas, holidays or why not among friends on a normal day.
+It's not only questions about snow, it will take the user to another level of winter questions. Maybe it will be useful knowledge or it will feel like a fun quiz.
 
-Its not only questions about snow, its will take the user to another level of winter questions. Maybe it will be useful knowledge or it will feel like a funny quiz.
-
-Visit the WinterQuiz here [The Quiz Page](https://emmarubih.github.io/WinterQuiz/)
 
 ## Goals
 
@@ -24,8 +19,9 @@ To achieve this:
  And test the quiz with family and friends.
 
  ## Wireframe
+ The following images show wireframes of two pages and one mobil idea. The wireframes were created using [Balsamiq Wireframe](https://balsamiq.com/)
 
- First page idea. will be the start:
+ First page idea. Will be the start:
 
  ![first page](/assets/image/ny2.png) 
 
@@ -43,8 +39,8 @@ To achieve this:
 
 #### The color chosen for the project are:
 
-This is the primary colors used for the website.
-And i used black an white color for text.
+These are the primary colors used for the website.
+And i used black and white color for the text.
 
 ![color board](/assets/image/colors%20board.png)
 
@@ -61,8 +57,8 @@ Google fonts:
 
 ### Home/Start page
 
-* This is a welcome page, whit information about the quiz.
-* This section provides a clickabel button there users can see to clickabel buttons with text Start and Info.
+* This is a welcome page, with information about the quiz.
+* This section provides a clickable button where users can see clickable buttons with text Start and Info.
 
 ![header](/assets/image/header.png)
 
@@ -75,7 +71,7 @@ Google fonts:
 * When the user comes to the home page, they see a start "box".
 * The user sees a text that clarifies what the quiz is about.
 * Then a question is asked if the user is ready to start the quiz. To make the user a little curious.
-* To start the quiz, user need to write there name.
+* To start the quiz, user need to write their name.
 
 ![start box](/assets/image/firstpage.png)
 
@@ -90,7 +86,7 @@ Google fonts:
 * A score board has been created for the user so that you can follow how many correct answers they have and how many questions they have answered.
 * A question box has been created. With 4 answer options for each question.
 *The selected question the user has pressed will then turn blue.
-* When the user clicks on the next question. They will quickly see if they have answer right or wrong. Two colors pop up with red for wrong and green for right.
+* When the user clicks on the next question. They will quickly see if the answer is right or wrong. Two colors pop up, with red for the wrong and green for right.
 * Then continues to next question.
 
 ![quiz](/assets/image/quizgame.png)
@@ -110,7 +106,7 @@ Google fonts:
  ![footer](/assets/image/footer.png)
 
  ### Features left to implement
- * A saving for score board. And send it to email
+ * A saving for the score board. And send it by email
 
 ## Technologies used
 
@@ -139,18 +135,18 @@ Google fonts:
 
 The code has been tested with:
 
-* W3C Markup validation service
-* W3C CSS validation service
-* JavaScript vaildation with JSHint
+* W3C Markup validation service [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Femmarubih.github.io%2FWinterQuiz%2F)
 
-* lighthouse test:
+* W3C CSS validation service [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Femmarubih.github.io%2FWinterQuiz%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
+
+* JavaScript vaildation with JSHint [Jshint validator](https://jshint.com/)
+
+* Lighthouse test:
 
 ![lighthouse](/assets/image/validation.png)
 
 ### Bugs
-I hade som problems figure out how to get frome start page to game page. It was easy with html. But that was not how i should do it. 
-I wanted to use JavaScript. Finaly i asked my super mentor for help. And he showed me ways to go and figure it out. By explaning more about localStorage.
-You can not solve everything by your self. And i realise that! It is okey to ask for help.
+I had some problems figuring out how to get from the starting page to the game page. It was easy with html. But that was not how I should do it. I wanted to use JavaScript. Finally, I asked my mentor for help. And he showed me ways to go and figure it out. By explaining more about localStorage. You can not solve everything by yourself. And I realised that! It is OK to ask for help.
 
 
 ## Deployment
@@ -160,17 +156,19 @@ The site was deployed to GITHUB pages. The steps to deploy are as follows
 * From the source section drop-down menu, select the Master Branch
 * Once the master branch has been selected, the page provide the link to the completed website.
 
+Visit the WinterQuiz here [The Quiz Page](https://emmarubih.github.io/WinterQuiz/)
+
 ## Credits
 
-Youtube: Random quiz app [Youtube](https://youtu.be/QU6z69P5BrU)
+Youtube: To understand more and get ideas. Random quiz app [Youtube](https://youtu.be/QU6z69P5BrU)
 
-Stack Overflow [link](https://stackoverflow.com/)
+Stack Overflow: Information and help with arrays and loops. [link](https://stackoverflow.com/)
 
-w3school [link](https://www.w3schools.com/)
+w3school: structure for html and css [link](https://www.w3schools.com/)
 
 Tutorial for quiz [link](https://simplestepscode.com/javascript-quiz-tutorial/)
 
-Google translate
+Google translate: From Swedish to English
 
 Image for background [link](https://www.freepik.com)
 
