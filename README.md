@@ -1,6 +1,6 @@
 # Emmas Winter Quiz Project
 
-![start multi page](/assets/image/amiresponsive.png)
+![start multi page](/assets/image/amidesign.png)
 
 This is a browser-based quiz game constructed with JavaScript, CSS and HTML. It allows the user to answer 10 random questions, and in the end receive a score.The idea for this quiz was to create a curiosity about winter times. You might long for the snow, Christmas or the feeling around winter. Then this quiz is great.The user can use this quiz, for example, on Christmas, holidays or why not among friends on a normal day.
 It's not only questions about snow, it will take the user to another level of winter questions. Maybe it will be useful knowledge or it will feel like a fun quiz.
@@ -73,12 +73,12 @@ Google fonts:
 * Then a question is asked if the user is ready to start the quiz. To make the user a little curious.
 * To start the quiz, user need to write their name.
 
-![start box](/assets/image/firstpage.png)
+![start box](/assets/image/firstpage1.png)
 
 * The user enters their name to continue.
 * Then the user clicks on the button that takes them on to the quiz.
 
-![username](/assets/image/username.png)
+![username](/assets/image/userandbutton.png)
 
 ### The quiz
 
@@ -103,7 +103,7 @@ Google fonts:
  * At the bottom of the page, the user can see who created the quiz.
  * To icons there is clickable to take the user to eather Facebook eller Instagram.
 
- ![footer](/assets/image/footer.png)
+ ![footer](/assets/image/footer1.png)
 
  ### Features left to implement
  * A saving for the score board. And send it by email
